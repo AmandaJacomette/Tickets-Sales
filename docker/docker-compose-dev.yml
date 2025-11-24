@@ -1,0 +1,44 @@
+# version: '3' -> obsoleto
+services:
+
+  pgsql-ticketsales:
+
+    image: postgres:17.6
+    ports:
+      #HOST:CONTAINER
+      - "9876:5432"
+    
+    environment:
+      - POSTGRES_PASSWORD=pgsql-ticketsales-password
+      - POSTGRES_USER=pgsql-ticketsales-master
+
+    networks:
+      - backend
+
+    volumes:
+
+      # - HOST:CONTAINER
+      # Scripts de criação dos bancos de dados
+      - ./01-create-database-events.sql:/docker-entrypoint-initdb.d/01-create-database-events.sql
+      - ./02-create-database-sales.sql:/docker-entrypoint-initdb.d/02-create-database-sales.sql
+
+      # Mapear a pasta de dados para o host - preservar os dados
+      - ./pg_data:/var/lib/postgresql/data    
+
+  pgadmin:
+
+    image: dpage/pgadmin4:9.8.0
+    ports:
+      - "8123:80"
+      - "8443:443"
+    
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=web@ufop.edu.br
+      - PGADMIN_DEFAULT_PASSWORD=123456
+    
+    networks:
+      - backend
+
+networks:
+  frontend:
+  backend:
