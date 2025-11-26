@@ -1,0 +1,80 @@
+############################################
+# Maven
+############################################
+target/
+!target/classes/
+!target/generated-sources/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+############################################
+# IntelliJ IDEA
+############################################
+.idea/
+*.iml
+*.iws
+out/
+
+############################################
+# Logs
+############################################
+logs/
+*.log
+*.log.*
+spring.log
+
+############################################
+# Sistema Operacional
+############################################
+# Windows
+Thumbs.db
+desktop.ini
+
+# macOS
+.DS_Store
+
+############################################
+# Docker
+############################################
+docker/data/
+docker/logs/
+docker/postgres/  # caso use volumes locais
+*.pid
+
+############################################
+# Java
+############################################
+*.class
+*.jar
+*.war
+*.ear
+
+############################################
+# Arquivos temporários
+############################################
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+############################################
+# Ambiente / Senhas
+############################################
+.env
+*.env
+.env.*
+application-local.properties
+application-local.yml
+
+############################################
+# Testes
+############################################
+test-output/
+surefire-reports/
+failsafe-reports/
