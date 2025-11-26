@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ebfaa999-04f1-41ea-9f25-7c899d853630" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/01-create-database-events.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/02-create-database-sales.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/docker-compose-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketsSales/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketsSales/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketsSales/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketsSales/compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketsSales/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketsSales/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketsSales/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketsSales/src/main/java/br/edu/ufop/web/ticketssales/Enum/SaleStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketsSales/src/main/java/br/edu/ufop/web/ticketssales/TicketsSalesApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketsSales/src/main/java/br/edu/ufop/web/ticketssales/controller/EventController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketsSales/src/main/java/br/edu/ufop/web/ticketssales/controller/SaleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketsSales/src/main/java/br/edu/ufop/web/ticketssales/entity/Event.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketsSales/src/main/java/br/edu/ufop/web/ticketssales/entity/Sale.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketsSales/src/main/java/br/edu/ufop/web/ticketssales/repository/EventRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketsSales/src/main/java/br/edu/ufop/web/ticketssales/repository/SaleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketsSales/src/main/java/br/edu/ufop/web/ticketssales/service/EventService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketsSales/src/main/java/br/edu/ufop/web/ticketssales/service/SaleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketsSales/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketsSales/src/test/java/br/edu/ufop/web/ticketssales/TicketsSaleApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HttpClientOnboardingState">{
+  &quot;isOnboardingCommentShown&quot;: true
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="35wATcVhuXV7RK3B0rozZ5FHxtu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.docker/docker-compose-dev.yml.pgsql-ticketsales: Compose Deployment.executor": "Run",
+    "Docker.docker/docker-compose-dev.yml: Compose Deployment.executor": "Run",
+    "HTTP Request.ticketsSales | Listar eventos.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.TicketsSalesApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/amand/OneDrive/Documentos/GitHub/Tickets-Sales",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\amand\OneDrive\Documentos\GitHub\Tickets-Sales" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\amand\OneDrive\Documentos\GitHub\Tickets-Sales" />
+      <recent name="C:\Users\amand\OneDrive\Documentos\GitHub\Tickets-Sales\ticketsSales" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationStatuses">
+      <map>
+        <entry key="HttpClient.HttpRequestRunConfigurationType">
+          <value>
+            <map>
+              <entry key="ticketsSales | Listar eventos" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.TicketsSalesApplication">
+    <configuration name="ticketsSales | Listar eventos" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/ticketsSales/ticketsSales.http" executionIdentifier="Listar eventos" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="TicketsSalesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="ticketsSales" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.edu.ufop.web.ticketssales.TicketsSalesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker/docker-compose-dev.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker/docker-compose-dev.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker/docker-compose-dev.yml.pgsql-ticketsales: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="pgsql-ticketsales" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker/docker-compose-dev.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.ticketsSales | Listar eventos" />
+        <item itemvalue="Docker.docker/docker-compose-dev.yml: Compose Deployment" />
+        <item itemvalue="Docker.docker/docker-compose-dev.yml.pgsql-ticketsales: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.26830.84" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ebfaa999-04f1-41ea-9f25-7c899d853630" name="Changes" comment="" />
+      <created>1764010769136</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764010769136</updated>
+      <workItem from="1764010770530" duration="1019000" />
+      <workItem from="1764027461458" duration="5981000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalStateException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
